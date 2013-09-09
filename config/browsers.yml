@@ -1,0 +1,15 @@
+ie:
+  name: "Testing IE on Windows 7 - Visa Europe Ruby/Cucumber Testing Examination"
+  browser: iexplore
+  os: Windows 7
+  browser_version: "9"
+  platform: Windows 7
+  version: "9"
+
+chrome:
+  name: "Testing Chrome on Windows 7 - Visa Europe Ruby/Cucumber Testing Examination"
+  browser: chrome
+  os: Windows 7
+  browser_version: ""
+  platform: Windows 7
+  version: ""

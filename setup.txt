@@ -1,0 +1,12 @@
+The setup scripts in the repo are already configured for Ubuntu. There is an assumption here is that you're using Ubuntu
+and your user has sudo privileges. The dependencies can be configured easily. First install...
+
+http://github.com/phpengine/cleopatra
+
+using the instructions there, it'll take about 3 minutes. Then, from within the project root of this repo, run:
+
+sudo cleopatra autopilot execute build/config/cleopatra/autopilots/setup-vexam.php
+
+Cleopatra is
+This will install the software and configuration necessary for the tests to run. You'll need to provide your working
+user's username for the Ruby install.

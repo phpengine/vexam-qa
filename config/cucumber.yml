@@ -1,0 +1,7 @@
+default: --format html --out Reports/report.html --format pretty --no-source --require features
+prototype: --tags @prototype -- PSP_ENV=cloudbees_ci DRIVER=sauce
+
+fullsuite: --tags ~@resource_time_intensive -- PSP_ENV=cloudbees_ci DRIVER=sauce
+
+fullsuite_stage_1_2: --tags @account_settings,@collection,@login_page -- PSP_ENV=cloudbees_ci DRIVER=sauce
+fullsuite_stage_2_2: --tags @migration_integrity_example -- PSP_ENV=cloudbees_ci DRIVER=sauce

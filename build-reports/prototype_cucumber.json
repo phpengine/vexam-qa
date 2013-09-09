@@ -1,0 +1,272 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Practical Test One",
+    "line": 1,
+    "description": "As a user of Amazon\nI want to search the term ipad\nSo that I can use the information to decide whether or not to buy an ipad",
+    "id": "practical-test-one",
+    "uri": "features/practical-test.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Check the amazon home page can be found",
+        "line": 7,
+        "description": "",
+        "tags": [
+          {
+            "name": "@practical_test_one",
+            "line": 6
+          }
+        ],
+        "id": "practical-test-one;check-the-amazon-home-page-can-be-found",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I go to the amazon home page",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/practical-test.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25387430242
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the \"amazon logo\"",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "amazon logo"
+                }
+              ],
+              "location": "features/step_definitions/practical-test.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 778834182
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see the \"amazon search box\"",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "amazon search box"
+                }
+              ],
+              "location": "features/step_definitions/practical-test.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 761871967
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter the configured search term into \"amazon search box\"",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 41,
+                  "val": "amazon search box"
+                }
+              ],
+              "location": "features/step_definitions/practical-test.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4195751691
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I hit the search submit button",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/practical-test.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4066835872
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the \"amazon logo\"",
+            "line": 13,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "amazon logo"
+                }
+              ],
+              "location": "features/step_definitions/practical-test.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 657484960
+            }
+          },
+          {
+            "comments": [
+              {
+                "value": "# Then I find and count the top result lists",
+                "line": 14
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I compare the first result in the list",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/practical-test.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3606739682
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Check the amazon home page can be found",
+        "line": 18,
+        "description": "",
+        "tags": [
+          {
+            "name": "@practical_test_two",
+            "line": 17
+          }
+        ],
+        "id": "practical-test-one;check-the-amazon-home-page-can-be-found",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I go to the amazon home page",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/practical-test.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2599163580
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the \"amazon logo\"",
+            "line": 20,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "amazon logo"
+                }
+              ],
+              "location": "features/step_definitions/practical-test.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 749936094
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I should see the \"amazon search box\"",
+            "line": 21,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "amazon search box"
+                }
+              ],
+              "location": "features/step_definitions/practical-test.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 656770894
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter the configured search term into \"amazon search box\"",
+            "line": 22,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 41,
+                  "val": "amazon search box"
+                }
+              ],
+              "location": "features/step_definitions/practical-test.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4119390601
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I hit the search submit button",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/practical-test.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3117455430
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the \"amazon logo\"",
+            "line": 24,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "amazon logo"
+                }
+              ],
+              "location": "features/step_definitions/practical-test.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 604654781
+            }
+          },
+          {
+            "comments": [
+              {
+                "value": "# Then I find and count the bottom result lists",
+                "line": 25
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I compare the last result in the list",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/practical-test.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10091389268
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
